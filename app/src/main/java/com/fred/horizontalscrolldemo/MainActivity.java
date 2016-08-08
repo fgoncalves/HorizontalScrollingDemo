@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     HorizontalViewPagerAdapter adapter =
         new HorizontalViewPagerAdapter(getSupportFragmentManager());
     viewPager.setAdapter(adapter);
-    viewPager.setPageMargin(40);
     viewPager.setPageTransformer(false, new HorizontalPageTransformer());
   }
 }

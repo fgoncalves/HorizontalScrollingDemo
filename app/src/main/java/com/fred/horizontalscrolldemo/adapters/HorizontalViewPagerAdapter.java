@@ -19,7 +19,7 @@ public class HorizontalViewPagerAdapter extends FragmentPagerAdapter {
   }
 
   @Override public float getPageWidth(int position) {
-    // We need this to show 3 pages
-    return 0.33f;
+    // We need this to show 5 pages
+    return 0.2f;
   }
 }

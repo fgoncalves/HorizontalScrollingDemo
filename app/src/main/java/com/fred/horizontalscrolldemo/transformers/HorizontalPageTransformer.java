@@ -23,6 +23,6 @@ public class HorizontalPageTransformer implements ViewPager.PageTransformer {
    */
   private float getScaleFactor(float position) {
     // the -0.33 is so we "move" the position to the center. It must be the same as the page width
-    return 1 - Math.abs(position - 0.33f);
+    return 1 - Math.abs(position - 0.4f);
   }
 }
